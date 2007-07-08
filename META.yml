@@ -35,4 +35,4 @@ requires:
   Term::Prompt: 1.03
   URI::ToDisk: 1.09
   perl: 5.005
-version: 0.05
+version: 0.06
