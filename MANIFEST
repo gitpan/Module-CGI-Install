@@ -5,7 +5,6 @@ inc/Module/Install/Can.pm
 inc/Module/Install/Fetch.pm
 inc/Module/Install/Makefile.pm
 inc/Module/Install/Metadata.pm
-inc/Module/Install/Scripts.pm
 inc/Module/Install/Win32.pm
 inc/Module/Install/WriteAll.pm
 lib/Module/CGI/Install.pm
@@ -20,7 +19,9 @@ t/02_main.t
 t/03_static.t
 t/04_cgi.t
 t/05_install.t
-t/99_author.t
+t/97_meta.t
+t/98_pod.t
+t/99_pmv.t
+t/data/cgi_dir/placeholder
 t/data/cgi_mock/cgicapture
-t/data/cgi_path/placeholder
-t/data/static_path/placeholder
+t/data/static_dir/placeholder
